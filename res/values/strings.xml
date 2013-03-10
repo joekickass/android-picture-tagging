@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidGameDevelopment2</string>
+    <string name="tag">Tag</string>
+    <string name="view_tags">Tagged in this image</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="details">Details</string>
+    <string name="phone">Phone number</string>
+    <string name="address">Address</string>
+
+</resources>

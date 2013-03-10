@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_tag"
+        android:showAsAction="never"
+        android:title="@string/tag"/>
+    
+    <item
+        android:id="@+id/menu_view_tags"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/view_tags"/>
+</menu>
