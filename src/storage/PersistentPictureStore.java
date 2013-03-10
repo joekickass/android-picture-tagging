@@ -2,6 +2,12 @@ package storage;
 
 import java.util.List;
 
+/**
+ * Allows storing and fetching tags for specific picture Uri's
+ * 
+ * @author otaino-2
+ *
+ */
 public interface PersistentPictureStore {
     
     /**

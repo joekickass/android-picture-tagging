@@ -18,6 +18,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+/**
+ * The main activity is responsible for displaying the full picture when
+ * user selects one in the gallery. When starting the application, the
+ * user will always get forwarded to the gallery application to select
+ * a picture.
+ * 
+ * @author otaino-2
+ *
+ */
 public class MainActivity extends Activity {
 
     private static final String TAG = "MainActivity";

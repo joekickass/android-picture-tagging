@@ -7,7 +7,8 @@ import android.provider.ContactsContract;
 
 /**
  * The ContactsLoader is responsible for querying the Contacts content provider 
- * for contacts stored on the phone.
+ * for contacts stored on the phone. Only contacts that have phone numbers are
+ * of interest...
  * 
  * @author otaino-2
  *

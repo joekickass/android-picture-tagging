@@ -13,6 +13,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * The details fragment loads additional contacts data (phone number and address) and displays
+ * it if available.
+ * 
+ * NOTE: The loading of phone number and address should be combined into one loader for efficiency,
+ * but this assignment has already claimed too much time =)
+ * 
+ * @author otaino-2
+ *
+ */
 public class ContactsDetailFragment extends DialogFragment implements LoaderCallbacks<Cursor> {
     
     private static final int LOADER_PHONENBR_ID = 102;
